@@ -74,7 +74,7 @@ public class ListaLigada <T> {
         System.out.println();
     }
 
-    public int tamanhoTotal(){
+    public void tamanhoTotal(){
         if (tamanho == 0){
             System.out.println("A lista está vazia");
 
